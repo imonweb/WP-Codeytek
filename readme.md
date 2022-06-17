@@ -1,1 +1,1 @@
-codeytek theme
+wp codeytek premium theme
