@@ -8,8 +8,9 @@
  **/
  
 ?>
-
-<footer>Footer</footer>
+<div class="container">
+  <footer>Footer</footer>
+</div>
 </div> <!--========= page ==========-->
 </div> <!--========= content ==========-->
 
