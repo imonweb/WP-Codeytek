@@ -20,6 +20,7 @@ if( ! defined( 'CODEYTEK_DIR_URI' )  ){
 // echo '</pre>';
 // wp_die();
 require_once CODEYTEK_DIR_PATH . '/inc/helpers/autoloader.php';
+require_once CODEYTEK_DIR_PATH . '/inc/helpers/template-tags.php';
 
 function codeytek_get_theme_instance(){
 \CODEYTEK_THEME\Inc\CODEYTEK_THEME::get_instance();
