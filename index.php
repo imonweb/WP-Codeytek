@@ -58,7 +58,7 @@
       else :
         get_template_part( 'template-parts/content-none' );
       endif; // have post
-      get_template_part( 'template-parts/content-none' );
+      codeytek_pagination();
     ?>
   </main>
 </div> <!--========= primary ==========-->

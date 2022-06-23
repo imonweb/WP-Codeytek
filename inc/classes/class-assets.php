@@ -43,7 +43,7 @@ class Assets {
 
   public function register_scripts(){
     /*  Register Scripts */
-    wp_register_script( 'main-js', CODEYTEK_DIR_URI . '/assets/main.js', [], filemtime( CODEYTEK_DIR_PATH . '/assets/main.js'), true );
+    wp_register_script( 'main-js', CODEYTEK_DIR_URI . '/assets/main.js', ['jquery'], filemtime( CODEYTEK_DIR_PATH . '/assets/main.js'), true );
     // wp_register_script( 'bootstrap-js', CODEYTEK_DIR_URI . '/assets/src/library/bootstrap/js/bootstrap.min.js', [ 'jquery' ], false, true );
      wp_register_script( 'bootstrap-bundle-js', CODEYTEK_DIR_URI . '/assets/src/library/bootstrap/js/bootstrap.bundle.min.js', [ 'jquery' ], false, true );
   
