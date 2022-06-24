@@ -12,20 +12,4 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: codeytek
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments
- 
 */
-
-img {
-  width: 100%;
-  height: auto;
-}
-
-/*  Entry meta */
-.updated:not(.published){
-  display: none;
-}
-
-/*  Nav item */
-.nav-item:hover .dropdown-menu:not(.show){
-  display: block;
-}
