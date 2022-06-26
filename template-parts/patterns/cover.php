@@ -7,8 +7,8 @@
 
 ?>
 
-<!-- wp:cover {"url":"<?php echo esc_url( AQUILA_BUILD_IMG_URI . '/patterns/cover.jpg' ) ?>","id":3854,"minHeight":640,"align":"full","className":"aquila-cover"} -->
-<div class="wp-block-cover alignfull has-background-dim aquila-cover" style="background-image:url(<?php echo esc_url( AQUILA_BUILD_IMG_URI . '/patterns/cover.jpg' ) ?>);min-height:640px"><div class="wp-block-cover__inner-container"><!-- wp:heading {"align":"center","level":1} -->
+<!-- wp:cover {"url":"<?php echo esc_url( CODEYTEK_BUILD_IMG_URI . '/patterns/cover.jpg' ) ?>","id":3854,"minHeight":640,"align":"full","className":"codeytek-cover"} -->
+<div class="wp-block-cover alignfull has-background-dim codeytek-cover" style="background-image:url(<?php echo esc_url( CODEYTEK_BUILD_IMG_URI . '/patterns/cover.jpg' ) ?>);min-height:640px"><div class="wp-block-cover__inner-container"><!-- wp:heading {"align":"center","level":1} -->
 		<h1 class="has-text-align-center"><strong>Never let your memories be greater than your dreams</strong></h1>
 		<!-- /wp:heading -->
 

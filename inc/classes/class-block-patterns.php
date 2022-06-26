@@ -33,6 +33,12 @@ class Block_Patterns {
 			/**
 			 * Cover Pattern
 			 */
+      /*
+      ob_start();
+      get_template_part( 'template-parts/patterns/cover' );
+      $cover_content = ob_get_contents();
+      */
+
 			$cover_content = $this->get_pattern_content( 'template-parts/patterns/cover' );
 
 			register_block_pattern(
@@ -41,22 +47,7 @@ class Block_Patterns {
 					'title' => __( 'Codeytek Cover', 'codeytek' ),
 					'description' => __( 'Codeytek Cover Block with image and text', 'codeytek' ),
 					'categories' => [ 'cover' ],
-					// 'content' => $cover_content,
-          'content' => "<!-- wp:cover {\"url\":\"http://localhost/wp/codeytek/wp-content/uploads/2022/06/hotel.jpg\",\"id\":77,\"dimRatio\":50,\"contentPosition\":\"center center\",\"isDark\":false,\"align\":\"full\"} -->
-<div class=\"wp-block-cover alignfull is-light codeytek-cover\"><span aria-hidden=\"true\" class=\"wp-block-cover__background has-background-dim\"></span><img class=\"wp-block-cover__image-background wp-image-77\" alt=\"\" src=\"http://localhost/wp/codeytek/wp-content/uploads/2022/06/hotel.jpg\" data-object-fit=\"cover\"/><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"textAlign\":\"center\",\"level\":1,\"align\":\"full\",\"textColor\":\"white\"} -->
-<h1 class=\"alignfull has-text-align-center has-white-color has-text-color\">Never let your memories be greater than your dream</h1>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {\"align\":\"center\",\"style\":{\"color\":{\"text\":\"#dedede\"}}} -->
-<p class=\"has-text-align-center has-text-color\" style=\"color:#dedede\">A mind that is stretched by a new experience can never go back its old dimensions.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:buttons -->
-<div class=\"wp-block-buttons\"><!-- wp:button {\"backgroundColor\":\"vivid-cyan-blue\",\"align\":\"center\"} -->
-<div class=\"wp-block-button aligncenter\"><a class=\"wp-block-button__link has-vivid-cyan-blue-background-color has-background\">Blogs</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons --></div></div>
-<!-- /wp:cover -->"
+				  'content' => $cover_content
 				]
 			);
 
