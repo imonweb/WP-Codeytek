@@ -5,6 +5,8 @@
  * @package codeytek
  */
 
+//  $cover_style = sprintf( 'background-image:url(%s);min-height:640px', esc_url() );
+
 ?>
 
 <!-- wp:cover {"url":"<?php echo esc_url( CODEYTEK_BUILD_IMG_URI . '/patterns/cover.jpg' ) ?>","id":3854,"minHeight":640,"align":"full","className":"codeytek-cover"} -->
